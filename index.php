@@ -59,8 +59,14 @@
 			<li><a href="fallbacks/">Various tests</a></li>
 		</ul>
 		<p>
-			Testing how fonts fallback from a downloaded font to another.
+			Testing how fonts fallback from one font to another.
 		</p>
+	</article>
+	<article>
+		<h1>Hinting</h1>
+		<ul>
+			<li><a href="hinting/">Hinting vs no hinting</a></li>
+		</ul>
 	</article>
 </body>
 </html>
