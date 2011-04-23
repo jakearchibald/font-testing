@@ -68,5 +68,15 @@
 			<li><a href="hinting/">Hinting vs no hinting</a></li>
 		</ul>
 	</article>
+	<article>
+		<h1>Standard embed</h1>
+		<ul>
+			<li><a href="standard-embed/">Spec-perfect</a></li>
+			<li><a href="standard-embed/with-query.php">Spec-perfect, with ? in IE url</a></li>
+			<li><a href="standard-embed/with-long-urls.php">Spec-perfect, with ? in IE url, but long urls for other fonts</a></li>
+			<li><a href="standard-embed/with-hash.php">Spec-perfect, with # in IE url, but long urls for other fonts</a></li>
+		</ul>
+		<p>Some demos showing the hurdles to overcome with IE&lt;9</p>
+	</article>
 </body>
 </html>
