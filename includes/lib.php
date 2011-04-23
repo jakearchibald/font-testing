@@ -74,7 +74,8 @@ function send_mime($path) {
 		header('Content-type: application/vnd.ms-fontobject');
 	}
 	else {
-		header( 'Content-type: ' . mime_content_type($path) );
+		//header( 'Content-type: ' . mime_content_type($path) );
+		header( 'Content-type: text/plain');
 	}
 }
 
