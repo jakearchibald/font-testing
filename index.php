@@ -14,6 +14,7 @@
 		<ul>
 			<li><a href="download-order/">Fonts used</a></li>
 			<li><a href="download-order/no-usage.php">No usage</a></li>
+			<li><a href="download-order/no-format.php">No format</a></li>
 		</ul>
 		<p>
 			A page that defines 3 fonts.
@@ -75,6 +76,7 @@
 			<li><a href="standard-embed/with-query.php">Spec-perfect, with ? in IE url</a></li>
 			<li><a href="standard-embed/with-long-urls.php">Spec-perfect, with ? in IE url, but long urls for other fonts</a></li>
 			<li><a href="standard-embed/with-hash.php">Spec-perfect, with # in IE url, but long urls for other fonts</a></li>
+			<li><a href="standard-embed/with-extra.php">Spec-wonky, but also works in IE9 compat modes</a></li>
 		</ul>
 		<p>Some demos showing the hurdles to overcome with IE&lt;9</p>
 	</article>
