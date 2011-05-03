@@ -15,6 +15,7 @@
 			<li><a href="download-order/">Fonts used</a></li>
 			<li><a href="download-order/no-usage.php">No usage</a></li>
 			<li><a href="download-order/no-format.php">No format</a></li>
+			<li><a href="download-order/with-unicode-range.php">With unicode range</a></li>
 		</ul>
 		<p>
 			A page that defines 3 fonts.
@@ -58,6 +59,8 @@
 		<h1>Fallbacks</h1>
 		<ul>
 			<li><a href="fallbacks/">Various tests</a></li>
+			<li><a href="fallbacks/unicode-range.php">Fallback forced with unicode-range</a></li>
+			<li><a href="fallbacks/unicode-range2.php">Fallback forced with unicode-range, first font not used</a></li>
 		</ul>
 		<p>
 			Testing how fonts fallback from one font to another.

@@ -12,6 +12,7 @@
 			     url('../fonts/throttle.php?f=josefinfull/josefinslab-bold-webfont.woff') format('woff'),
 			     url('../fonts/throttle.php?f=josefinfull/josefinslab-bold-webfont.ttf')  format('truetype'),
 			     url('../fonts/throttle.php?f=josefinfull/josefinslab-bold-webfont.svg#svgFontName') format('svg');
+			unicode-range: U+62-66;
 		}
 		@font-face {
 			font-family: 'bangers-a';
@@ -20,31 +21,18 @@
 			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=bangers-a-only/bangers-webfont.woff') format('woff'),
 			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=bangers-a-only/bangers-webfont.ttf')  format('truetype'),
 			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=bangers-a-only/bangers-webfont.svg#svgFontName') format('svg');
+			unicode-range: U+61;
 		}
-		@font-face {
-			font-family: 'cabinsketch-b';
-			src: url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=cabinsketch-b-only/cabinsketch-bold-webfont.eot');
-			src: url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=cabinsketch-b-only/cabinsketch-bold-webfont.eot#iefix') format('embedded-opentype'),
-			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=cabinsketch-b-only/cabinsketch-bold-webfont.woff') format('woff'),
-			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=cabinsketch-b-only/cabinsketch-bold-webfont.ttf')  format('truetype'),
-			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=cabinsketch-b-only/cabinsketch-bold-webfont.svg#svgFontName') format('svg');
+		p {
+			margin: 10px 0;
 		}
-		.josefin {
-			font: normal 4em/1 josefin, sans-serif;
-		}
-		.bangers-cabinsketch {
-			font: normal 4em/1 bangers-a, cabinsketch-b, sans-serif;
+		.josefin-bangers {
+			font: normal 3em/1 josefin, bangers-a, sans-serif;
 		}
 	</style>
 </head>
 <body>
-	<script>
-		window.onload = function() {
-			document.body.appendChild( document.createTextNode('window.onload') );
-		};
-	</script>
-	<p class="josefin">Hello!</p>
-	<p><?php throttle_lipsum(15000, 0.2, 500) ?></p>
-	<p class="bangers-cabinsketch">ab</p>
+	<p>The next paragraph should use a different font for the first char</p>
+	<p class="josefin-bangers">abcdef</p>
 </body>
 </html>

@@ -20,6 +20,7 @@
 			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=bangers-a-only/bangers-webfont.woff') format('woff'),
 			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=bangers-a-only/bangers-webfont.ttf')  format('truetype'),
 			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=bangers-a-only/bangers-webfont.svg#svgFontName') format('svg');
+			unicode-range: U+61;
 		}
 		@font-face {
 			font-family: 'cabinsketch-b';
@@ -28,6 +29,7 @@
 			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=cabinsketch-b-only/cabinsketch-bold-webfont.woff') format('woff'),
 			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=cabinsketch-b-only/cabinsketch-bold-webfont.ttf')  format('truetype'),
 			     url('../fonts/throttle.php?chunk_size=250&sleep=0.3&f=cabinsketch-b-only/cabinsketch-bold-webfont.svg#svgFontName') format('svg');
+			unicode-range: U+62;
 		}
 		.josefin {
 			font: normal 4em/1 josefin, sans-serif;
@@ -38,11 +40,6 @@
 	</style>
 </head>
 <body>
-	<script>
-		window.onload = function() {
-			document.body.appendChild( document.createTextNode('window.onload') );
-		};
-	</script>
 	<p class="josefin">Hello!</p>
 	<p><?php throttle_lipsum(15000, 0.2, 500) ?></p>
 	<p class="bangers-cabinsketch">ab</p>
