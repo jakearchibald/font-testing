@@ -38,6 +38,16 @@
 		</p>
 	</article>
 	<article>
+		<h1>Rendering patterns</h1>
+		<ul>
+			<li><a href="http://www.stevesouders.com/blog/2010/06/01/frontend-spof/">Various tests</a></li>
+		</ul>
+		<p>
+			Steve Souders has some excellent tests for this although some of the
+			results are now out of date (eg Firefox 4).
+		</p>
+	</article>
+	<article>
 		<h1>no-cache bug</h1>
 		<ul>
 			<li><a href="no-cache-bug/no-cache.php">No delay</a></li>
@@ -82,6 +92,13 @@
 			<li><a href="standard-embed/with-extra.php">Spec-wonky, but also works in IE9 compat modes</a></li>
 		</ul>
 		<p>Some demos showing the hurdles to overcome with IE&lt;9</p>
+	</article>
+	<article>
+		<h1>@font-face and font-weight/style</h1>
+		<ul>
+			<li><a href="weight-style/">Keywords test</a></li>
+			<li><a href="weight-style/regular-only.html">Keywords test - only regular used</a></li>
+		</ul>
 	</article>
 </body>
 </html>
