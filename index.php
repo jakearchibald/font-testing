@@ -97,7 +97,15 @@
 		<h1>@font-face and font-weight/style</h1>
 		<ul>
 			<li><a href="weight-style/">Keywords test</a></li>
-			<li><a href="weight-style/regular-only.html">Keywords test - only regular used</a></li>
+			<li><a href="weight-style/regular-only.php">Keywords test - only regular used</a></li>
+			<li><a href="weight-style/faking.php">Test for faking bold & italic</a></li>
+		</ul>
+	</article>
+	<article>
+		<h1>Advanced features</h1>
+		<ul>
+			<li><a href="advanced/kerning.php">Kerning</a></li>
+			<li><a href="advanced/ligatures.php">Ligatures</a></li>
 		</ul>
 	</article>
 </body>

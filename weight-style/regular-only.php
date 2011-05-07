@@ -51,29 +51,11 @@
 			font-family: josefin;
 			font-size: 3em;
 			margin: 10px 0;
-			font-weight: normal;
-		}
-		.bold {
-			font-weight: bold;
-		}
-		.italic {
-			font-style: italic;
-		}
-		.lighter {
-			font-weight: lighter;
 		}
 	</style>
 </head>
 <body>
 	<h1>Regular</h1>
 	<p class="test">abcdefghijklmnopqrstuvwxyz</p>
-	<h1>Bold</h1>
-	<p class="test bold">abcdefghijklmnopqrstuvwxyz</p>
-	<h1>Italic</h1>
-	<p class="test italic">abcdefghijklmnopqrstuvwxyz</p>
-	<h1>Bold & italic</h1>
-	<p class="test bold italic">abcdefghijklmnopqrstuvwxyz</p>
-	<h1>Lighter</h1>
-	<p class="test lighter">abcdefghijklmnopqrstuvwxyz</p>
 </body>
 </html>
