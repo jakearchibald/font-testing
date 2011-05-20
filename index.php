@@ -41,6 +41,9 @@
 		<h1>Rendering patterns</h1>
 		<ul>
 			<li><a href="http://www.stevesouders.com/blog/2010/06/01/frontend-spof/">Various tests</a></li>
+			<li><a href="render-pattern/">External css file</a></li>
+			<li><a href="render-pattern/inline.php">Inline css</a></li>
+			<li><a href="render-pattern/async.php">Async external css</a></li>
 		</ul>
 		<p>
 			Steve Souders has some excellent tests for this although some of the
@@ -106,6 +109,12 @@
 		<ul>
 			<li><a href="advanced/kerning.php">Kerning</a></li>
 			<li><a href="advanced/ligatures.php">Ligatures</a></li>
+		</ul>
+	</article>
+	<article>
+		<h1>local() issues</h1>
+		<ul>
+			<li><a href="local/">Local font vs webfont</a></li>
 		</ul>
 	</article>
 </body>
