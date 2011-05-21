@@ -7,17 +7,19 @@
 	<script>
 		(function() {
             var fonts = ['josefin', 'cartoonist'],
+				urls = ['style.css'],
+				src = 'webfont_debug.js',
 				script = document.createElement('script'),
 				firstScript = document.getElementsByTagName('script')[0];
 			
 			window.WebFontConfig={
 				custom:{
 					families: fonts,
-					urls: ['style.css']
+					urls: urls
 				}
 			};
             
-			script.src='webfont_debug.js';
+			script.src = src;
             firstScript.parentNode.insertBefore(script, firstScript);
 			// YOU ARE HERE
             document.documentElement.className += fonts.join('|').replace(/\s/g, '').toLowerCase().replace(/([^|]+)(?:\||$)/g, ' wf-$1-n4-loading');
@@ -25,33 +27,39 @@
 	</script>
 	<style>
 		p {
-			background: #aaa;
 			padding: 20px;
 			font: normal 4em/1 sans-serif;
+			margin: 0;
+		}
+		.test {
+			background: #aaa;
 			margin: 0 0 5px;
 		}
+		
 		.josefin {
 			font: normal 4em/1 josefin, sans-serif;
 		}
+		.wf-josefin-n4-loading .josefin {
+			visibility: hidden;
+		}
+		
 		.cartoonist {
 			font: normal 4em/1 cartoonist, sans-serif;
+		}
+		.wf-cartoonist-n4-loading .cartoonist {
+			font: normal 4em/1 sans-serif;
 		}
 	</style>
 </head>
 <body>
-	<p class="josefin">I'm a webfont!</p>
-	<p>I'm not!</p>
-	<p class="cartoonist">I'm a webfont too!</p>
-	<script>
-		(function() {
-			var link = document.createElement('link'),
-				head = document.getElementsByTagName('head');
-			link.rel = 'stylesheet';
-			link.href = 'style.css';
-			setTimeout(function() {
-				document.getElementsByTagName('head')[0].insertBefore(link, head.firstChild);
-			}, 500);
-		})();
-	</script>
+	<div class="test">	
+		<p class="josefin">I'm a webfont!</p>
+	</div>
+	<div class="test">
+		<p>I'm not!</p>
+	</div>
+	<div class="test">
+		<p class="cartoonist">I'm a webfont too!</p>
+	</div>
 </body>
 </html>
