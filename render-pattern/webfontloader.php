@@ -6,9 +6,9 @@
 	<title></title>
 	<script>
 		(function() {
-            var fonts = ['josefin', 'cartoonist'],
+			var fonts = ['josefin', 'cartoonist'],
 				urls = ['style.css'],
-				src = 'webfont_debug.js',
+				src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js',
 				script = document.createElement('script'),
 				firstScript = document.getElementsByTagName('script')[0];
 			
@@ -18,12 +18,11 @@
 					urls: urls
 				}
 			};
-            
+			
 			script.src = src;
-            firstScript.parentNode.insertBefore(script, firstScript);
-			// YOU ARE HERE
-            document.documentElement.className += fonts.join('|').replace(/\s/g, '').toLowerCase().replace(/([^|]+)(?:\||$)/g, ' wf-$1-n4-loading');
-        })();
+			firstScript.parentNode.insertBefore(script, firstScript);
+			//document.documentElement.className += fonts.join('|').replace(/\s/g, '').toLowerCase().replace(/([^|]+)(?:\||$)/g, ' wf-$1-n4-loading');
+		})();
 	</script>
 	<style>
 		p {
