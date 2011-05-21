@@ -46,7 +46,7 @@
 			font: normal 4em/1 cartoonist, sans-serif;
 		}
 		.wf-cartoonist-n4-loading .cartoonist {
-			font: normal 4em/1 sans-serif;
+			font: normal 3em/1.31 sans-serif;
 		}
 	</style>
 </head>
