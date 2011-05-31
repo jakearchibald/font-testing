@@ -44,6 +44,7 @@
 			<li><a href="render-pattern/">External css file</a></li>
 			<li><a href="render-pattern/inline.php">Inline css</a></li>
 			<li><a href="render-pattern/async.php">Async external css</a></li>
+			<li><a href="render-pattern/asyncsettimeout.php">Async external css via setTimeout</a></li>
 			<li><a href="render-pattern/webfontloader.php">Google web font loader</a></li>
 		</ul>
 		<p>

@@ -5,10 +5,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<title></title>
 	<script>
-		(function() {
+		setTimeout(function() {
 			var fonts = ['josefin', 'cartoonist'],
 				urls = ['style.css'],
-				src = '//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js',
+				src = 'webfont_debug.js',
 				script = document.createElement('script'),
 				firstScript = document.getElementsByTagName('script')[0];
 			
@@ -21,8 +21,7 @@
 			
 			script.src = src;
 			firstScript.parentNode.insertBefore(script, firstScript);
-			//document.documentElement.className += fonts.join('|').replace(/\s/g, '').toLowerCase().replace(/([^|]+)(?:\||$)/g, ' wf-$1-n4-loading');
-		})();
+		}, 0);
 	</script>
 	<style>
 		p {

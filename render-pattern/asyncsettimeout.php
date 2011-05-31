@@ -24,7 +24,9 @@
 				head = document.getElementsByTagName('head')[0];
 			link.rel = 'stylesheet';
 			link.href = 'style.css';
-			head.insertBefore(link, head.firstChild);
+			setTimeout(function() {
+				head.insertBefore(link, head.firstChild);
+			}, 0);
 		})();
 	</script>
 </head>
