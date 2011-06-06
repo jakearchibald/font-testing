@@ -5,23 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<title></title>
 	<script>
-		setTimeout(function() {
-			var fonts = ['josefin', 'cartoonist'],
-				urls = ['style.css'],
-				src = 'webfont_debug.js',
-				script = document.createElement('script'),
-				firstScript = document.getElementsByTagName('script')[0];
-			
-			window.WebFontConfig={
-				custom:{
-					families: fonts,
-					urls: urls
-				}
-			};
-			
-			script.src = src;
-			firstScript.parentNode.insertBefore(script, firstScript);
-		}, 0);
+		setTimeout(function(){var a=document,g,b={families:(g=
+		["josefin","cartoonist"]),urls:["style.css"]},
+		c="webfont_debug.js",d="script",
+		e=a.createElement(d),f=a.getElementsByTagName(d)[0],h=g.length;WebFontConfig
+		={custom:b},e.src=c,f.parentNode.insertBefore(e,f);for(;h--;a.documentElement
+		.className+=' wf-'+g[h].replace(/\s/g,'').toLowerCase()+'-n4-loading');},0)
 	</script>
 	<style>
 		p {
