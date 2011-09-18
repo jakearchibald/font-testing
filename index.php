@@ -82,9 +82,10 @@
 		</p>
 	</article>
 	<article>
-		<h1>Hinting</h1>
+		<h1>Rendering</h1>
 		<ul>
 			<li><a href="hinting/">Hinting vs no hinting</a></li>
+			<li><a href="hinting/psvstt.php">Postscript vs Truetype</a></li>
 		</ul>
 	</article>
 	<article>
