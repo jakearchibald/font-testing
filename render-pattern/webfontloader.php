@@ -7,7 +7,7 @@
 	<!--[if gt IE 8]><!-->
 		<script>
 			/*(function() {
-				if (window.opera) {return}
+				if (window.opera) {return;}
 				var doc = document,
 					families = ["josefin","cartoonist"],
 					scriptStr = "script",
