@@ -44,6 +44,8 @@
 			margin: 0 0 5px;
 		}
 		
+		/* Although this stuff is inline, it can go in your normal css file */
+
 		/* 
 			This is the preferred method. Shows contend straight away,
 			switches to web font when it loads. Allows different font
