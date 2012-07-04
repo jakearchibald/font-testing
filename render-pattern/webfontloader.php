@@ -4,7 +4,7 @@
 	<meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<title></title>
-	<!--[if gt IE 8]><!-->
+	<!--[if gte IE 8]><!-->
 		<script>
 			/*(function() {
 				if (window.opera) {return;}
